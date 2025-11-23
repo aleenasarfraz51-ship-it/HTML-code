@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Document</title>
+    </head>
+    <body>
+        <h1>
+        Introduction :
+      </h1>  
+      <h2>Point 1</h2>
+      <h3>Point 2</h3>
+      <h4>Point 3</h4>
+      <h5>Point 4</h5>
+      <h6>Point 5</h6>
+      <h3>Paragraph</h3>
+        <pre>
+        <p>My name is Aleena Sarfraz. I am in BSCS Semester V. I am studying in Govt. Graduate College, Qila Didar Singh.</p>
+        </pre>
+        <a href="https://youtube.com">Youtube</a>
+        <h2>List of Departments</h2>
+        <ol>
+            <li>Chemistry</li>
+            <li>Computer Science</li>
+            <li>English</li>
+            <li>Literature</li>
+        </ol>
+        <h2>Class Details</h2>
+        <table border="2px">
+            <tr>
+                <th>Student Name</th>
+                <th>Student Roll no.</th>
+                <th>CGPA</th>
+            </tr>
+            <tr>
+                <td>Aleena</td>
+                <td>231102</td>
+                <td>3.70</td>
+            </tr>
+            <tr>
+                <td>Muskan</td>
+                <td>231120</td>
+                <td>3.62</td>
+            </tr>
+        </table>
+
+        <h2>Sign up form </h2>
+        <fieldset>
+            <legend>Your Personal Details</legend>
+            <form method="post">
+                <label for="username ">Username:</label>
+                <br>
+                <input type="text" id="username" name="username" placeholder=" Enter Username" required=""maxlength="20">
+                <br>
+                <label for="email">Enter Your Email:</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder=" abc@example.com" >
+                <br>
+                <label for="Pass">Password:</label>
+                <br>
+                <input type="password" id="Password" name="Password" placeholder=" Enter Your 8 digit Password" maxlength="8">
+                <br>
+                <label for="cPass">CPassword:</label>
+                <br>
+                <input type="Cpass" id="Cpass" name="Confirm Password" placeholder="Enter Your 8 digit Password" maxlength="8">
+                <br>
+                <label for="Phone No. ">Enter Your Phone Number:</label>
+                <input type="Tel" id="Phone No." name="Phone No." placeholder=" Enter Your Phone Number" >
+                <br>
+                <label>Gender:</label>
+                <br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+                <br>
+                <label for="Favorite Color ">Select Your Favourite Color</label>
+                <input type="color" id="Favourite Color" name="Favorite Color" >
+                <br>
+                <label for="Date  ">Select Your Hire Date</label>
+                <input type="Date" id="Date" name="Date" >
+                <br>
+                <label for="Time">Select Your Timestamp</label>
+                <input type="Time" id="Time" name="Time" >
+                <br>
+                <label for="myfile">Upload Your Certificates</label>
+                <br>
+                <input type="file" id="myfile" name="myfile">
+                <br>
+                <input type="checkbox"name="term">
+                <label >accept the <a href="#">terms and conditions</a>.</label>
+                <br>
+                <input type="submit"value="SignUp">
+                <input type="Reset"value="Reset">
+            </form>
+        </fieldset>
+    </body>
+</html>
